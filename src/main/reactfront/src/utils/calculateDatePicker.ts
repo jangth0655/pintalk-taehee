@@ -1,4 +1,4 @@
-export function calculateYear(number) {
+export function calculateYear(number: number) {
   const limit = 100;
   const maxYear = new Date().getFullYear();
   const minYear = maxYear - limit;
@@ -9,7 +9,7 @@ export function calculateYear(number) {
   return rangeYear;
 }
 
-export function calculateMonthWithDay(length) {
+export function calculateMonthWithDay(length: number) {
   const array = Array.from({ length }, (_, i) => i + 1);
   const newArray = array.map((item) => {
     const stringNumber = item + '';

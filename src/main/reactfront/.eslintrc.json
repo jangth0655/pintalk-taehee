@@ -17,7 +17,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "quotes": "off",
+    "quotes": 1,
     "comma-dangle": "off",
     "semi": "off",
     "multiline-ternary": "off",
@@ -39,6 +39,7 @@
     "spaced-comment": 0,
     "no-unused-expressions": 0,
     "no-unneeded-ternary": "off",
+    "no-useless-escape": "off",
     "array-callback-return": "off",
     "prefer-const": 0,
     "no-useless-return": 0,

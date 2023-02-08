@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { useDaumPostcodePopup } from 'react-daum-postcode';
+import { Address, useDaumPostcodePopup } from 'react-daum-postcode';
 
 const useAddress = () => {
   const open = useDaumPostcodePopup();
-  const [address, setAddress] = useState();
+  const [address, setAddress] = useState<Address>();
 
-  const handleComplete = (data) => {
-    setAddress(data.address);
+  const handleComplete = (data: Address) => {
+    setAddress(address);
   };
 
   const handleAddress = () => {

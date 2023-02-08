@@ -1,4 +1,4 @@
-export const convertEmail = (frontEmail, backEmail) => {
+export const convertEmail = (frontEmail: string, backEmail: string) => {
   if (frontEmail && backEmail) {
     return frontEmail + '@' + backEmail;
   }
@@ -6,7 +6,7 @@ export const convertEmail = (frontEmail, backEmail) => {
   if (backEmail) return '@' + backEmail;
 };
 
-export const convertDate = (date) => {
+export const convertDate = (date: Date) => {
   if (!date) return;
   const year = new Date(date).getFullYear() + '';
   const month = new Date(date).toLocaleDateString('default', { month: '2-digit' });
