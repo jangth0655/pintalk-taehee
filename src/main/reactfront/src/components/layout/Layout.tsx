@@ -1,7 +1,11 @@
-import AdminNavbar from './navbar/AdminNavbar';
 import Navbar from './navbar/Navbar';
 
-const Layout = ({ children, title }) => {
+interface Props {
+  children: React.ReactNode;
+  title?: string;
+}
+
+const Layout = ({ children, title }: Props) => {
   return (
     <section>
       <Navbar title={title} />

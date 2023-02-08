@@ -3,7 +3,7 @@ import AccountListTable from '../../components/admin/table/AccountListTable';
 
 const AccountList = () => {
   return (
-    <AdminLayout title="계좌 조회">
+    <AdminLayout title='계좌 조회'>
       <AccountListTable />
     </AdminLayout>
   );

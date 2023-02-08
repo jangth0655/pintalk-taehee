@@ -1,12 +1,12 @@
 import RegisterForm from '../../components/register/RegisterForm';
 import RegisterTitle from '../../components/register/RegisterTitle';
 
-const AdminRegister = () => {
+const LoginRegister = () => {
   return (
     <>
-      <RegisterTitle title="회원등록" />
+      <RegisterTitle title='회원가입' />
       <RegisterForm />
     </>
   );
 };
-export default AdminRegister;
+export default LoginRegister;
