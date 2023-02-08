@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
+    "target": "ES5",
+    "module": "ES2015",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -16,6 +16,6 @@
     "isolatedModules": false,
     "noEmit": true
   },
-  "include": ["./src/"],
+  "include": ["./src/*"],
   "exclude": ["node_modules/*"]
 }

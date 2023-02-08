@@ -17,6 +17,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "quotes": "off",
     "comma-dangle": "off",
     "semi": "off",
     "multiline-ternary": "off",
